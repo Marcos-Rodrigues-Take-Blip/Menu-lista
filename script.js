@@ -40,7 +40,7 @@ txtDiv.appendChild(novoBotao);
 
 // altera a imagem
 var imagem = document.querySelector('img');
-imagem.src = '/titulo botão principal.png';
+imagem.src = 'https://marcos-rodrigues-take-blip.github.io/Menu-lista/titulo%20bot%C3%A3o%20principal.png';
 
 }
 
@@ -80,7 +80,7 @@ function descricaoList(){
     txtDiv.appendChild(novoBotao);
 
     var imagem = document.querySelector('img');
-    imagem.src = '/titulo das opções.png';
+    imagem.src = 'https://marcos-rodrigues-take-blip.github.io/Menu-lista/titulo%20das%20op%C3%A7%C3%B5es.png';
 }
 
 // crie a variável divInputs fora das funções
@@ -98,7 +98,7 @@ document.getElementById("dd").appendChild(br);
     const botao = document.getElementById('botãoID');
     
     var imagem = document.querySelector('img');
-    imagem.src = '/opções - titulos e descricao.png';
+    imagem.src = 'https://marcos-rodrigues-take-blip.github.io/Menu-lista/op%C3%A7%C3%B5es%20-%20titulos%20e%20descricao.png';
     menuDescricao.innerHTML = "Agora digite o <b>Título</b> e a <b>Descrição</b> do seu menu";
 
     menuListInput.style.display = 'none';
