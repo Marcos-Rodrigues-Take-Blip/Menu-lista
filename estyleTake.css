@@ -1,0 +1,210 @@
+.container2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  
+.left {
+ margin-top: 70px;
+  }
+  
+  
+  .right {
+    margin-top: 100px;
+  }
+  
+
+  
+
+  body {
+    background:  rgb(8, 8, 8);
+    font: normal 15pt Arial;
+   
+}
+
+header {
+    color: aliceblue;
+    text-align: center; 
+    
+}
+section {
+    background:rgb(255, 255, 255);
+    border-radius:  50px;
+    padding: 40px;
+    width:  500px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(11, 171, 174); 
+    position: relative;
+}
+
+div {
+    text-align: center;
+    padding:  10px;
+}
+
+footer {
+    color: rgb(243, 243, 244);
+    text-align: center;
+    font-style:  italic;
+
+}
+#txt {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #txt p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #txt input[type="text"] {
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%;
+    margin-right: 10px;
+  }
+  
+  #txt input[type="button"] {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #txt input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* animação de hover no botão */
+  #txt input[type="button"]:hover {
+    transform: scale(1.1);
+  }
+  
+  /* animação de focus no input */
+  #txt input[type="text"]:focus {
+    border: 2px solid #4CAF50;
+    outline: none;
+    box-shadow: 0px 0px 6px #4CAF50;
+  }
+
+  /* Estilos para o label */
+  label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100px; /* largura específica para o label */
+  }
+  
+  input {
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #cdc6c6;
+    width: calc(100% - 100px); /* largura do input é o restante da div pai */
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    background-color: #4CAF50;;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+    position: absolute;
+    top: 140px;
+    right: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #2196F3;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+}
+
+.campos-div {
+  display: block;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.remover-campo-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  margin-left: 400px;
+  cursor: pointer;
+  margin-right: -10px;
+  align-self: flex-end;
+  margin-bottom: -20px;
+}
+
+.gerar-btn {
+  background-color: red;
+  background-image: linear-gradient(to bottom right, #ff5b5b, #ff9966);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  display: block;
+  position: absolute;
+  top: 140px;
+  right: 450px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.gerar-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn-refazer {
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 100px;
+  right: -10px;
+  top: 400px;
+
+}
+.btn-copiar {
+  background-color: rgb(4, 212, 84);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  right: 350px;
+  top: 400px;
+}
+.btn-copiado {
+  background-color: rgb(0, 0, 0);
+  color: rgb(242, 6, 6);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  right: 350px;
+  top: 400px;
+}

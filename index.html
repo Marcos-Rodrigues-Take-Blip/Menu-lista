@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de templates</title>      
+    <link rel="stylesheet" href="estyleTake.css">  
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap-reverse;
+      }
+
+      .left {
+        flex: 1;
+      }
+
+      .right {
+        flex: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container2">
+      <div class="left">
+        <img src="/body.png" alt="Imagem">
+      </div>
+      <div class="right">
+        <header>
+          <h1>Gerador de lista de menu</h1>
+          
+        </header>
+        <section>            
+            <div id="txt">
+                <p id="menu-descricao">Digite a <b>descrição</b> do seu Menu de lista</p>
+                <input type="text" id="menu-input" title="Digite o texto do menu">
+                <input type="button" id="botao" value="Pronto!" onclick="pronto()">                 
+              </div>   
+                           
+          <div id="dd"></div>          
+        </section>
+        
+        <footer id="footer">
+          <p>&copy; Marcos Rodrigues</p>
+          <p>
+            <a href="https://www.linkedin.com/in/marcos-rodrigues-a1878b1a7/">LinkedIn</a> | 
+            <a href="https://github.com/Marcos-Rodrigues-JS">GitHub</a>
+          </p>
+
+          </footer>
+          
+                  
+        
+        <script src="script.js"></script>
+       
+    </body>
+</html>
