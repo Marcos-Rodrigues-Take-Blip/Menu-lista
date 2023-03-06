@@ -310,7 +310,7 @@ while (divInputs.childNodes.length > 0) {
 }
 menuDescricao.innerHTML = "Agora <b>copie e cole</b> no seu conteúdo dinamico ✅";
 var imagem = document.querySelector('img');
-imagem.src = '/imagem final.png';
+imagem.src = 'https://marcos-rodrigues-take-blip.github.io/Menu-lista/imagem%20final.png';
 
 //------------ resultado no campo ----------
 let inputResultado = document.createElement("textarea");
