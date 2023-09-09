@@ -23,8 +23,8 @@ novoInputBT.id = 'botaoListID'
 novoInputBT.type = 'text';
 novoInputBT.title = 'Digite aqui';
 novoInputBT.oninput = function() {
-  if (this.value.length > 24) {
-    this.value = this.value.slice(0, 24);
+  if (this.value.length > 20) {
+    this.value = this.value.slice(0, 20);
   }
 };
 
