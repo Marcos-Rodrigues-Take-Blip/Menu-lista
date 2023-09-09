@@ -23,8 +23,8 @@ novoInputBT.id = 'botaoListID'
 novoInputBT.type = 'text';
 novoInputBT.title = 'Digite aqui';
 novoInputBT.oninput = function() {
-  if (this.value.length > 20) {
-    this.value = this.value.slice(0, 20);
+  if (this.value.length > 24) {
+    this.value = this.value.slice(0, 24);
   }
 };
 
@@ -117,8 +117,8 @@ document.getElementById("dd").appendChild(br);
     input1.id = 'input1'
     input1.setAttribute('placeholder', 'Título');
     input1.oninput = function() {
-        if (this.value.length > 20) {
-            this.value = this.value.slice(0, 20);
+        if (this.value.length > 24) {
+            this.value = this.value.slice(0, 24);
             }}
 
     // crie o segundo label e input
@@ -130,8 +130,8 @@ document.getElementById("dd").appendChild(br);
     input2.id = 'input2'
     input2.setAttribute('placeholder', 'Descrição');
     input2.oninput = function() {
-        if (this.value.length > 60) {
-            this.value = this.value.slice(0, 60);
+        if (this.value.length > 72) {
+            this.value = this.value.slice(0, 72);
             }}
 
     // adicione os labels e inputs à div pai
@@ -183,8 +183,8 @@ function maisCampos() {
     input1.setAttribute('id', 'tt' + contador);
     input1.style.marginTop = '10px';
     input1.oninput = function() {
-        if (this.value.length > 20) {
-            this.value = this.value.slice(0, 20);
+        if (this.value.length > 24) {
+            this.value = this.value.slice(0, 24);
             }}
     
 
@@ -197,8 +197,8 @@ function maisCampos() {
     input2.setAttribute('placeholder', 'Descrição');
     input2.setAttribute('id', 'desc' + contador);
     input2.oninput = function() {
-        if (this.value.length > 60) {
-            this.value = this.value.slice(0, 60);
+        if (this.value.length > 72) {
+            this.value = this.value.slice(0, 72);
         }
     }
     
